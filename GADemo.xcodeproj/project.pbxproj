@@ -14,6 +14,13 @@
 		CCBCAB651A62BA4600124727 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAB641A62BA4600124727 /* Images.xcassets */; };
 		CCBCAB681A62BA4600124727 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBCAB661A62BA4600124727 /* LaunchScreen.xib */; };
 		CCBCAB741A62BA4600124727 /* GADemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBCAB731A62BA4600124727 /* GADemoTests.swift */; };
+		CCBCAB7F1A62BB1D00124727 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAB7D1A62BB1D00124727 /* libAdIdAccess.a */; };
+		CCBCAB801A62BB1D00124727 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAB7E1A62BB1D00124727 /* libGoogleAnalyticsServices.a */; };
+		CCBCAB8D1A62BB4700124727 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAB8C1A62BB4700124727 /* AdSupport.framework */; };
+		CCBCAB8F1A62BB5800124727 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAB8E1A62BB5800124727 /* SystemConfiguration.framework */; };
+		CCBCAB911A62BB6000124727 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAB901A62BB6000124727 /* CoreData.framework */; };
+		CCBCAB931A62BB6700124727 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAB921A62BB6700124727 /* libsqlite3.0.dylib */; };
+		CCBCAB951A62BB6E00124727 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCAB941A62BB6E00124727 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,24 @@
 		CCBCAB6D1A62BA4600124727 /* GADemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GADemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBCAB721A62BA4600124727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBCAB731A62BA4600124727 /* GADemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADemoTests.swift; sourceTree = "<group>"; };
+		CCBCAB7D1A62BB1D00124727 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		CCBCAB7E1A62BB1D00124727 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		CCBCAB821A62BB3500124727 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		CCBCAB831A62BB3500124727 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		CCBCAB841A62BB3500124727 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		CCBCAB851A62BB3500124727 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		CCBCAB861A62BB3500124727 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		CCBCAB871A62BB3500124727 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		CCBCAB881A62BB3500124727 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		CCBCAB891A62BB3500124727 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		CCBCAB8A1A62BB3500124727 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		CCBCAB8B1A62BB3500124727 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		CCBCAB8C1A62BB4700124727 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CCBCAB8E1A62BB5800124727 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CCBCAB901A62BB6000124727 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CCBCAB921A62BB6700124727 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CCBCAB941A62BB6E00124727 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CCBCAB971A62BC0800124727 /* GADemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GADemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBCAB951A62BB6E00124727 /* libz.dylib in Frameworks */,
+				CCBCAB931A62BB6700124727 /* libsqlite3.0.dylib in Frameworks */,
+				CCBCAB911A62BB6000124727 /* CoreData.framework in Frameworks */,
+				CCBCAB8F1A62BB5800124727 /* SystemConfiguration.framework in Frameworks */,
+				CCBCAB8D1A62BB4700124727 /* AdSupport.framework in Frameworks */,
+				CCBCAB7F1A62BB1D00124727 /* libAdIdAccess.a in Frameworks */,
+				CCBCAB801A62BB1D00124727 /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +113,15 @@
 			children = (
 				CCBCAB5A1A62BA4600124727 /* AppDelegate.swift */,
 				CCBCAB5F1A62BA4600124727 /* ViewController.swift */,
+				CCBCAB971A62BC0800124727 /* GADemo-Bridging-Header.h */,
 				CCBCAB611A62BA4600124727 /* Main.storyboard */,
 				CCBCAB641A62BA4600124727 /* Images.xcassets */,
 				CCBCAB661A62BA4600124727 /* LaunchScreen.xib */,
 				CCBCAB5C1A62BA4600124727 /* GADemo.xcdatamodeld */,
+				CCBCAB7D1A62BB1D00124727 /* libAdIdAccess.a */,
+				CCBCAB7E1A62BB1D00124727 /* libGoogleAnalyticsServices.a */,
+				CCBCAB961A62BBB100124727 /* Framework */,
+				CCBCAB811A62BB3500124727 /* Library */,
 				CCBCAB581A62BA4600124727 /* Supporting Files */,
 			);
 			path = GADemo;
@@ -113,6 +150,35 @@
 				CCBCAB721A62BA4600124727 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCBCAB811A62BB3500124727 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAB821A62BB3500124727 /* GAI.h */,
+				CCBCAB831A62BB3500124727 /* GAIDictionaryBuilder.h */,
+				CCBCAB841A62BB3500124727 /* GAIEcommerceFields.h */,
+				CCBCAB851A62BB3500124727 /* GAIEcommerceProduct.h */,
+				CCBCAB861A62BB3500124727 /* GAIEcommerceProductAction.h */,
+				CCBCAB871A62BB3500124727 /* GAIEcommercePromotion.h */,
+				CCBCAB881A62BB3500124727 /* GAIFields.h */,
+				CCBCAB891A62BB3500124727 /* GAILogger.h */,
+				CCBCAB8A1A62BB3500124727 /* GAITrackedViewController.h */,
+				CCBCAB8B1A62BB3500124727 /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		CCBCAB961A62BBB100124727 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCAB941A62BB6E00124727 /* libz.dylib */,
+				CCBCAB921A62BB6700124727 /* libsqlite3.0.dylib */,
+				CCBCAB901A62BB6000124727 /* CoreData.framework */,
+				CCBCAB8E1A62BB5800124727 /* SystemConfiguration.framework */,
+				CCBCAB8C1A62BB4700124727 /* AdSupport.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +410,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GADemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GADemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GADemo/GADemo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -354,7 +426,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GADemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GADemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GADemo/GADemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
